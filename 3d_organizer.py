@@ -39,7 +39,7 @@ class ModelGallery(QWidget):
         self.setWindowTitle("3D Galerie LeCheim")
         self.setGeometry(100, 100, 1600, 900)
 
-        self.start_dir = r"D:\PRINTABLES-Projekte"
+        self.start_dir = r"C:\\"
         self.extra_dirs = []
         self.current_dir = self.start_dir
         self.model_min_width = 300
