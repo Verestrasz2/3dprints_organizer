@@ -5,13 +5,14 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[
-    (r"C:\Users\daniel\Pictures\Saved Pictures\1.png", "."),
+    ('Icons\\splashscreen3d.png', '.'),
+    ('10485587.png', '.'),
     ],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    excludes=[],
+    excludes=['PyQt5', 'PySide2', 'PySide6', 'shiboken2', 'shiboken6'],
     noarchive=False,
     optimize=0,
 )
@@ -38,5 +39,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=r"C:\Users\daniel\Pictures\Saved Pictures\favicon.ico",
+    icon='Icons\\favicon (1).ico',
 )
